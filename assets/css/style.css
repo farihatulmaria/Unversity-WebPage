@@ -1,0 +1,226 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/*==============================
+            Default css 
+================================ */
+*,
+::before,
+::after {
+  transition: all 0.5s;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+}
+h1,
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+h2 {
+  font-size: 30px;
+}
+button {
+  background: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 20px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  position: relative;
+}
+button::before,
+button::after {
+  position: absolute;
+  top: 21px;
+  width: 33px;
+  height: 1px;
+  background: #fff;
+  content: "";
+}
+button::before {
+  left: -22px;
+}
+button::after {
+  right: -22px;
+}
+button:hover,
+button:hover::before,
+button:hover::after {
+  background: #f44336;
+  border-color: #f44336;
+}
+p {
+  color: #8f8f8f;
+}
+.col {
+  position: relative;
+  /* overflow: hidden; */
+}
+/*==============================
+            Main css 
+================================ */
+/* header */
+header {
+  background: linear-gradient(#04091eb3, #04091eb3),
+    url("/assets/img/banner.png");
+  background-position: center center;
+  background-blend-mode: screen multiply;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+.logo {
+  width: 80px;
+}
+nav ul a::before,
+nav ul a::after {
+  position: absolute;
+  bottom: 5px;
+  width: 0%;
+  height: 3px;
+  border-radius: 20px;
+  background: #f44336;
+  content: "";
+}
+nav ul a::before {
+  right: 5px;
+}
+nav ul a::after {
+  left: 5px;
+}
+nav ul a:hover::before,
+nav ul a:hover::after {
+  width: 44%;
+}
+.sticky {
+  background: #fff;
+  box-shadow: 0 0 17px #a8a6a6;
+}
+.sticky a {
+  color: #000 !important;
+}
+.banner {
+  display: flex;
+}
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+}
+/* courses */
+.course-info {
+  background: #fff3f3;
+  padding: 35px 20px;
+  border-radius: 5px;
+}
+.course-info h3 {
+  text-transform: capitalize;
+}
+/* campus */
+
+.campus img {
+  border-radius: 5px;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  width: 89%;
+  opacity: 0;
+  height: 100%;
+  background: rgba(225, 0, 0, 0.7);
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.layer:hover,
+.layer:focus {
+  opacity: 0.8;
+}
+.layer:hover h3 {
+  top: 0;
+}
+.layer h3 {
+  font-size: 30px;
+  position: relative;
+  top: 100px;
+}
+/* single-comment */
+.single-comment {
+  background-color: #fff3f3;
+  border-radius: 8px;
+}
+.userImg {
+  border-radius: 50%;
+}
+.ratings svg {
+  color: #f44336;
+}
+/*  Scroll to top */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 28px;
+  opacity: 0.8;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ffff;
+  z-index: 99;
+  background: #f44336;
+  padding: 2px 10px;
+  border-radius: 6px;
+  transform: rotate(-45deg);
+}
+.stab-left .scroll-to-top {
+  right: inherit;
+  left: 30px;
+}
+.stab-center .scroll-to-top {
+  right: 50%;
+  margin-right: 5px;
+}
+.scroll-to-top:hover {
+  transform: rotate(0);
+}
+/*==============================
+            Responsive css 
+================================ */
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

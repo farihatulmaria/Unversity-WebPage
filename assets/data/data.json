@@ -1,0 +1,56 @@
+{
+  "courseInfos": [
+    {
+      "id": 1,
+      "title": "intermediate",
+      "desc": " Lorem ipsum dolor sit amet, consectetur adipisicing elit.Consequatur facere dignissimos voluptatum consequuntur labore ipsam cumque velit dicta eveniet iure. Voluptas, dolor!Inventore doloribus ipsum assumenda nesciunt, nisi odio rem."
+    },
+    {
+      "id": 2,
+      "title": "degree",
+      "desc": " Lorem ipsum dolor sit amet, consectetur adipisicing elit.Consequatur facere dignissimos voluptatum consequuntur labore ipsam cumque velit dicta eveniet iure. Voluptas, dolor!Inventore doloribus ipsum assumenda nesciunt, nisi odio rem."
+    },
+    {
+      "id": 3,
+      "title": "post gradution",
+      "desc": " Lorem ipsum dolor sit amet, consectetur adipisicing elit.Consequatur facere dignissimos voluptatum consequuntur laboreipsam cumque velit dicta eveniet iure. Voluptas, dolor!Inventore doloribus ipsum assumenda nesciunt, nisi odio rem."
+    }
+  ],
+  "campuses": [
+    {
+      "id": 1,
+      "title": "London",
+      "src": "assets/img/london.png"
+    },
+    {
+      "id": 2,
+      "title": "New York",
+      "src": "assets/img/newyork.png"
+    },
+    {
+      "id": 3,
+      "title": "Washington",
+      "src": "assets/img/washington.png"
+    }
+  ],
+  "facilities": [
+    {
+      "id": 1,
+      "title": "Different Clubs",
+      "src": "assets/img/basketball.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Voluptas doloribus consectetur dolore non harum"
+    },
+    {
+      "id": 2,
+      "title": "World Class Library",
+      "src": "assets/img/library.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Voluptas doloribus consectetur dolore non harum"
+    },
+    {
+      "id": 3,
+      "title": "First Class Cafeterias",
+      "src": "assets/img/cafeteria.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Voluptas doloribus consectetur dolore non harum"
+    }
+  ]
+}
